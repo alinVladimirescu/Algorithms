@@ -30,6 +30,6 @@ if __name__ == "__main__":
     uf = Exercise1(5)
     uf.union(0, 1)
     uf.union(1, 2)
-    print("Find(0, 2):", uf.find(0, 2))  # Should be True
-    print("Find(0, 3):", uf.find(0, 3))  # Should be False
+    print("Find(0, 2):", uf.find(0, 2))  
+    print("Find(0, 3):", uf.find(0, 3))  
         
