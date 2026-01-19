@@ -1,3 +1,5 @@
+# Exercise 2 – Social Network Connectivity
+# Given a social network containing N members and a log file containing a sequence of friendships requests, design an algorithm to determine the earliest time at which all members are connected (i.e., every member is a friend of a friend of a friend ... of a friend). Assume that the log file is temporally sorted, and that friendship is an equivalence relation. What is the running time of your algorithm?
 class Exercise2:
     parents = []
     size = []

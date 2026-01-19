@@ -1,4 +1,6 @@
 
+# Exercise 1 – Union-Find 
+# Implement the Union-Find algorithm seen at lectures in Python. Test its functioning.
 class Exercise1:
     def __init__(self, n):
         self.parents = [i for i in range(n)]
