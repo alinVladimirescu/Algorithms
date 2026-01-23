@@ -4,7 +4,7 @@ n = 3
 for i in range(n):
     m = [[0] * n for _ in range(n)]
 r = 0
-c = 1
+c = 0
 start, stop = 2, 2
 m[r][c] = 1
 rows, cols = len(m), len(m[0])
@@ -26,9 +26,5 @@ def traverse_paths(r, c):
                 m[row][col] += m[past_r_two][past_c_two]
             if row == start and col == stop:
                 return m[row][col]
-            
-                
-
-    
 print(traverse_paths(r, c))
 
