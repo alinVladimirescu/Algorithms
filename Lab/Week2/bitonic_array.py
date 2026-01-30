@@ -1,4 +1,4 @@
-input = [1, 2, 3, 4]
+input = [1, 2, 3, 4, 5, 3, 1]
 
 
 def binary_search_max(l, r):
@@ -16,7 +16,7 @@ def binary_search(arr, l, r, target):
     while l <= r:
         mid = (l + r) // 2
         if arr[mid] == target:
-            print("Found")
+            print(f"{target} : found")
             return
         elif arr[mid] < target:
             l = mid + 1
@@ -27,7 +27,7 @@ index_maxi = input.index(maxi)
 reg_half = input[:index_maxi]
 second_half = input[index_maxi:]
 reversed_half = second_half[::-1]
-target = 2
+target = 5
 binary_search(reg_half,0, len(reg_half) - 1, target)
 binary_search(reversed_half,0, len(reversed_half) - 1, target)
     
