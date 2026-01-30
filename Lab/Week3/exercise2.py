@@ -13,6 +13,8 @@ def arrange_numbers(nums):
             pos_nums.append(n)
         else:
             neg_nums.append(n)
+    pos_nums.sort()
+    neg_nums.sort(reverse = True)
     i = j = 0
     counter = 0
     res = []
