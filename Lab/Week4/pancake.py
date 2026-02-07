@@ -21,6 +21,3 @@ def pancake_sort(arr):
         arr = flip(arr, end)
     return arr
         
-
-
-print(pancake_sort([3,2,4,1]))
