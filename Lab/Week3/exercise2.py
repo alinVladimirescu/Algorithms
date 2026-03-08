@@ -34,5 +34,5 @@ def arrange_numbers(nums):
         res.append(neg_nums[j])
         j += 1
     return res
-
+    
 print(arrange_numbers(nums))

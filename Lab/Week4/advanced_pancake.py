@@ -44,7 +44,6 @@ def rearrange_arr(arr, bps):
     
     return flips, arr
 
-# Test
 arr = [1, 8, 9, 2, 3, 7, 6, 5, 4, 10]
 print(f"Original array: {arr}")
 

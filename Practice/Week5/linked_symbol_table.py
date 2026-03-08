@@ -17,7 +17,7 @@ class LinkedListSymbolTable:
         current = self.head
         while current:
             if current.key == key:
-                current.value = value  # Update existing key
+                current.value = value 
                 return
             current = current.next
         

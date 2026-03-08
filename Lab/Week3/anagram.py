@@ -6,6 +6,7 @@
 # [part, trap]
 # [pass]
 from collections import defaultdict
+
 words = ["eat", "tea", "part", "ate", "trap", "pass"]
 def anagram_grouping(words):
     word_dict = defaultdict(list)
@@ -17,4 +18,3 @@ grouped_words = anagram_grouping(words)
 
 for g in grouped_words.values():
     print(g)
-
